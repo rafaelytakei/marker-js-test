@@ -11,6 +11,7 @@ specifiers:
   eslint: ^7.32.0
   eslint-plugin-prettier: ^4.0.0
   eslint-plugin-vue: ^7.18.0
+  markerjs2: ^2.11.2
   pinia: ^2.0.0-rc.9
   prettier: ^2.4.1
   typescript: ^4.4.3
@@ -27,6 +28,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 6.4.1_vue@3.2.12
+  markerjs2: 2.11.2
   pinia: 2.0.0-rc.9_typescript@4.4.3+vue@3.2.12
   uuid: 8.3.2
   vue: 3.2.12
@@ -1531,6 +1533,10 @@ packages:
     dependencies:
       sourcemap-codec: 1.4.8
     dev: true
+
+  /markerjs2/2.11.2:
+    resolution: {integrity: sha512-Y/Cb8iD9x+33QHM1O6xYINUDxaoGvjYnszx46hIHUJTCWopMWOjy9QY+ZWUgbPBJs23jFt7/lOkZddvDDYjd0g==}
+    dev: false
 
   /merge-source-map/1.1.0:
     resolution: {integrity: sha512-Qkcp7P2ygktpMPh2mCQZaf3jhN6D3Z/qVZHSdWvQ+2Ef5HgRAPBO57A77+ENm0CPx2+1Ce/MYKi3ymqdfuqibw==}
